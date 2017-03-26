@@ -13,7 +13,7 @@ import javax.swing.JTextField;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class Formularioa extends JDialog {
+public class ProduktuFormulario extends JDialog {
 
 	private final JPanel contentPanel = new JPanel();
 	private JTextField textFieldNumExistencias;
@@ -26,7 +26,7 @@ public class Formularioa extends JDialog {
 	 */
 	public static void main(String[] args) {
 		try {
-			Formularioa dialog = new Formularioa();
+			ProduktuFormulario dialog = new ProduktuFormulario();
 			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
 			dialog.setVisible(true);
 		} catch (Exception e) {
@@ -37,7 +37,7 @@ public class Formularioa extends JDialog {
 	/**
 	 * Create the dialog.
 	 */
-	public Formularioa() {
+	public ProduktuFormulario() {
 		setBounds(100, 100, 450, 300);
 		getContentPane().setLayout(new BorderLayout());
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
