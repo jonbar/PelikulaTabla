@@ -10,6 +10,7 @@ import javax.swing.JLabel;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
+//TODO claseari izena aldatu BigarrenLehioa beharrean BezeroKudeatzailea
 public class BigarrenLeihoa extends JDialog {
 
 	private final JPanel contentPanel = new JPanel();
